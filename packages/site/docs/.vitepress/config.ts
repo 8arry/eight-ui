@@ -18,14 +18,14 @@ export default defineConfig({
     },
   },
   appearance: false, // 夜间模式切换
-  title: "TEST UI",
+  title: "EIGHT UI",
   description: "Vue基础组件库",
   lang: "zh-CN",
   lastUpdated: true,
-  head: [["link", { rel: "icon", href: "/favico.ico" }]],
+  head: [["link", { rel: "icon", href: "/logo1-removebg-preview.ico" }]],
   themeConfig: {
-    siteTitle: "TEST UI",
-    logo: "/logo.png",
+    siteTitle: "EIGHT UI",
+    logo: "/logo1-removebg-preview.png",
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/getting-started" },
