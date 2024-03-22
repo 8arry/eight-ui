@@ -26,7 +26,9 @@ export default defineConfig({
   themeConfig: {
     siteTitle: "EIGHT UI",
     logo: "/logo1-removebg-preview.png",
-    socialLinks: [{ icon: 'github', link: "https://github.com/8arry/eight-ui" }],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/8arry/eight-ui" },
+    ],
     nav: [
       { text: "首页", link: "/" },
       { text: "指南", link: "/guide/getting-started" },

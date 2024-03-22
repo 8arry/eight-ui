@@ -5,7 +5,7 @@ import Antd from "ant-design-vue";
 import "eight-ui/dist/style.css";
 import "ant-design-vue/dist/antd.css";
 import "./index.css";
-import "./style.css"
+import "./style.css";
 
 export default {
   ...DefaultTheme,
