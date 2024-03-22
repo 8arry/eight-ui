@@ -1,6 +1,26 @@
 :root {
+  /* 明亮模式的颜色定义 */
+  /*标题*/
+  --vp-home-hero-name-color: transparent;
+  --vp-home-hero-name-background: linear-gradient(135deg, #FEC163 10%, #DE4313 100%);
   --vp-c-brand: #ff7818d1;
   --vp-button-brand-border: #ff7818d1;
   --vp-button-brand-hover-border: #ff9c40;
   --vp-button-brand-hover-bg: #ff9c40;
+  /*图标背景*/
+  --vp-home-hero-image-background-image: linear-gradient(135deg, #FEC163 10%, #DE4313 100%);
+  --vp-home-hero-image-filter: blur(150px);
+}
+
+.dark {
+  /* 暗黑模式的颜色定义，这里使用了更亮的颜色以增加对比度 */
+  --vp-c-brand: #ffa85c;
+  --vp-button-brand-border: #ffa85c;
+  --vp-button-brand-hover-border: #ffb77a;
+  --vp-button-brand-hover-bg: #ffb77a;
+  --vp-c-bg: #271f1f;
+  --vp-home-hero-text-color: transparent;
+  --vp-home-hero-text-background: white;
+  --vp-home-background: background-color: var(--vp-c-bg);
+
 }

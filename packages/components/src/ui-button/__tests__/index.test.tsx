@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { describe, expect, it, vi } from "vitest";
 import { mount } from "@vue/test-utils";
 import UiButton from "../UiButton.vue";
@@ -6,11 +7,11 @@ describe("Button", () => {
   it("按钮渲染", () => {
     const wrapper = mount({
       render() {
-        return <UiButton>hello Lylaa ui</UiButton>;
+        return <UiButton>hello EIGHT UI</UiButton>;
       },
     });
     expect(wrapper.html()).toMatchSnapshot();
-    expect(wrapper.text()).toBe("hello Lylaa ui");
+    expect(wrapper.text()).toBe("hello EIGHT UI");
   });
   it("按钮点击", () => {
     const onClick = vi.fn();

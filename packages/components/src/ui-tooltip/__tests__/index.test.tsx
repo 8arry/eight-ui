@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import { describe, expect, it, vi } from "vitest";
 import { mount } from "@vue/test-utils";
 import UiTooltip from "../UiTooltip.vue";
@@ -21,9 +22,9 @@ describe("Button", () => {
     const wrapper = mount({
       render() {
         return (
-          <UiTooltip title="hello lyla ui">
+          <UiTooltip title="hello EIGHT UI">
             <div id="hello" class="hello-class">
-              hello Lylaa ui
+              hello EIGHT UI
             </div>
           </UiTooltip>
         );
